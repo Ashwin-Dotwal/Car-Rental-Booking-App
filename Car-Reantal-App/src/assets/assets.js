@@ -41,7 +41,7 @@ import car_image2 from "./car_image2.png"
 import car_image3 from "./car_image3.png"
 import car_image4 from "./car_image4.png"
 
-export const cityList = ['New York', 'Los Angeles', 'Houston', 'Chicago']
+export const cityList = ['Delhi', 'Mumbai', 'Indore', 'Benglore']
 
 export const assets = {
     logo,
@@ -121,7 +121,7 @@ export const dummyCarData = [
         "seating_capacity": 4,
         "fuel_type": "Hybrid",
         "transmission": "Semi-Automatic",
-        "pricePerDay": 300,
+        "pricePerDay": 1000,
         "location": "New York",
         "description": "The BMW X5 is a mid-size luxury SUV produced by BMW. The X5 made its debut in 1999 as the first SUV ever produced by BMW.",
         "isAvaliable": true,
@@ -138,7 +138,7 @@ export const dummyCarData = [
         "seating_capacity": 4,
         "fuel_type": "Diesel",
         "transmission": "Manual",
-        "pricePerDay": 130,
+        "pricePerDay": 830,
         "location": "Chicago",
         "description": "The Toyota Corolla is a mid-size luxury sedan produced by Toyota. The Corolla made its debut in 2008 as the first sedan ever produced by Toyota.",
         "isAvaliable": true,
@@ -155,7 +155,7 @@ export const dummyCarData = [
         "seating_capacity": 4,
         "fuel_type": "Hybrid",
         "transmission": "Automatic",
-        "pricePerDay": 200,
+        "pricePerDay": 900,
         "location": "Los Angeles",
         "description": "The Jeep Wrangler is a mid-size luxury SUV produced by Jeep. The Wrangler made its debut in 2003 as the first SUV ever produced by Jeep.",
         "isAvaliable": true,
@@ -172,7 +172,7 @@ export const dummyCarData = [
         "seating_capacity": 2,
         "fuel_type": "Diesel",
         "transmission": "Semi-Automatic",
-        "pricePerDay": 209,
+        "pricePerDay": 999,
         "location": "Houston",
         "description": "This is a mid-size luxury sedan produced by Toyota. The Corolla made its debut in 2008 as the first sedan ever produced by Toyota.",
         "isAvaliable": true,
@@ -189,7 +189,7 @@ export const dummyMyBookingsData = [
         "pickupDate": "2025-06-13T00:00:00.000Z",
         "returnDate": "2025-06-14T00:00:00.000Z",
         "status": "confirmed",
-        "price": 440,
+        "price": 840,
         "createdAt": "2025-06-10T12:57:48.244Z",
     },
     {
@@ -200,7 +200,7 @@ export const dummyMyBookingsData = [
         "pickupDate": "2025-06-12T00:00:00.000Z",
         "returnDate": "2025-06-12T00:00:00.000Z",
         "status": "pending",
-        "price": 130,
+        "price": 930,
         "createdAt": "2025-06-10T12:57:25.613Z",
     },
     {
@@ -211,7 +211,7 @@ export const dummyMyBookingsData = [
         "pickupDate": "2025-06-11T00:00:00.000Z",
         "returnDate": "2025-06-12T00:00:00.000Z",
         "status": "pending",
-        "price": 600,
+        "price": 1200,
         "createdAt": "2025-06-10T09:55:06.379Z",
     },
     {
@@ -222,7 +222,7 @@ export const dummyMyBookingsData = [
         "pickupDate": "2025-06-11T00:00:00.000Z",
         "returnDate": "2025-06-12T00:00:00.000Z",
         "status": "confirmed",
-        "price": 440,
+        "price": 1140,
         "createdAt": "2025-06-10T09:44:25.410Z",
     }
 ]
@@ -236,5 +236,5 @@ export const dummyDashboardData = {
         dummyMyBookingsData[0],
         dummyMyBookingsData[1]
     ],
-    "monthlyRevenue": 840
+    "monthlyRevenue": 3040
 }
