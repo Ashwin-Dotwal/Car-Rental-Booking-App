@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import CarDetails from './pages/CarDetails';
 import Cars from './pages/Cars';
 import MyBooking from './pages/MyBooking';
+import CarCard from './components/CarCard';
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false)
@@ -12,7 +13,7 @@ const App = () => {
   return (
     <>
       {!isOwnerPath && <NavBar setShowLogin={setShowLogin} />
-}
+ }
 
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -22,7 +23,7 @@ const App = () => {
           
 
       </Routes>
-
+       <CarCard/>
     </>
   );
 };
