@@ -1,2 +1,6 @@
 node_modules/
 .env
+
+
+//token for user register
+ "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YmU2NDM0ZTIwMDI2NmZmNjQ0MmE0YSIsImlhdCI6MTc1NzMwNzk1NiwiZXhwIjoxNzU3OTEyNzU2fQ.w9BkwJXAzbijjO0bHTtwyv1Cv-SUGqwjhkHWZc26vQE"

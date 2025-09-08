@@ -1,21 +1,25 @@
+// server.js
 import express from "express";
 import "dotenv/config";
 import cors from "cors";
 import connectDB from "./configs/db.js";
+import userRoutes from "./routes/userRoutes.js";
 
-//initialize Express App
-const app = express()
+const app = express();
 
-
-//connect Database
-await connectDB()
-
-
-//middleware
+// middleware
 app.use(cors());
 app.use(express.json());
 
-app.get('/',(req,res)=>res.send("server is running"))
+// routes
+app.get("/", (req, res) => res.send("Server is running"));
+app.use("/api/user", userRoutes);
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT,()=>console.log(`Server running on port ${PORT}`))
+const startServer = async () => {
+  await connectDB();
+  const PORT = process.env.PORT || 3000;
+  app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+};
+
+startServer();
+
